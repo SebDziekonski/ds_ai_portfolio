@@ -3,6 +3,9 @@ site_author: Sebastian Dziekonski
 site_description: >-
     My Portfolio containing projects of my jurney with Data Science and AI!
 
+repo_name: SebDziekonski/ds_ai_portfolio
+repo_url: https://github.com/SebDziekonski/ds_ai_portfolio.git
+
 theme:
   name: material
 
