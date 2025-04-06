@@ -1,0 +1,15 @@
+site_name: My Projects
+site_author: Sebastian Dziekonski
+site_description: >-
+    My Portfolio containing projects of my jurney with Data Science and AI!
+
+theme:
+  name: material
+
+nav:
+- Home Page: index.md
+- Current Project: 
+  - "Titanic": titanic/index.md
+- Previous Projects: 
+  - "Iris": iris/index.md
+
