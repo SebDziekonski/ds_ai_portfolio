@@ -26,9 +26,12 @@ Python + JSON – For data handling and local storage
 
 dotenv – For secure API key management
 
+Link to see for your self how the application works:
+
+https://github.com/SebDziekonski/ds_ai_portfolio.git
+
 <iframe
     id="content"
-    src="app.py"
     width="100%"
     style="border:1px solid black;overflow:hidden;"
 ></iframe>

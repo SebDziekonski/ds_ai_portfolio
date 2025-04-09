@@ -12,7 +12,7 @@ theme:
 nav:
 - Home Page: index.md
 - Current Project: 
-  - "My GPT" : my_gpt/index.md
+  - "My GPT" : my_GPT/index.md
 - Previous Projects: 
   - "Titanic": titanic/index.md
   - "Iris": iris/index.md
