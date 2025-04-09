@@ -1,3 +1,6 @@
+🧠 My GPT – A Personalized AI Chatbot App
+NaszGPT is a Streamlit-based chatbot application that connects to OpenAI’s GPT models (like GPT-4o) to provide intelligent, conversational responses. It’s designed for users who want a customizable and cost-transparent AI assistant experience.
+
 <iframe
     id="content"
     src="app.py"
