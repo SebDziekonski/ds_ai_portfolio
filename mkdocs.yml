@@ -12,8 +12,9 @@ theme:
 nav:
 - Home Page: index.md
 - Current Project: 
-  - "My GPT" : my_GPT/index.md
+  - "Audio Notes": audio_notes/index.md
+
 - Previous Projects: 
   - "Titanic": titanic/index.md
   - "Iris": iris/index.md
-
+  - "My GPT" : my_GPT/index.md
