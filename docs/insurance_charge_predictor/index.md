@@ -60,3 +60,6 @@ Also when charge is estimated, application will give the user a hint on what he 
 - OpenAI Whisper API: Used for speech-to-text transcription.
 
 - Natural Language Parsing: Planned to convert spoken text into form data using regex-based extraction.
+
+Follow the link below, to see for yourself how the application works:
+<br><a href="https://github.com/SebDziekonski/ds_ai_portfolio.git" target="_blank">Open in new tab</a>
