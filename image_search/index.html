@@ -13,10 +13,8 @@
       
       
       
-        <link rel="prev" href="../my_GPT/">
+        <link rel="prev" href="../audio_notes/">
       
-      
-        <link rel="next" href="../image_search/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -24,7 +22,7 @@
     
     
       
-        <title>Audio Notes - My Projects</title>
+        <title>Image Finder - My Projects</title>
       
     
     
@@ -66,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ai-powered-audio-note-taking-with-search" class="md-skip">
+        <a href="#image-finder" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Audio Notes
+              Image Finder
             
           </span>
         </div>
@@ -418,30 +416,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Audio Notes
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../audio_notes/" class="md-nav__link">
         
   
   
@@ -452,51 +430,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ai-powered-audio-note-taking-with-search" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎙️ AI-Powered Audio Note-Taking with Search
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-the-app-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚀 What the App Does
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-it-works-flow-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ How It Works (Flow Overview)
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -506,10 +439,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../image_search/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -520,6 +462,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -549,41 +492,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ai-powered-audio-note-taking-with-search" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎙️ AI-Powered Audio Note-Taking with Search
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-the-app-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚀 What the App Does
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-it-works-flow-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ How It Works (Flow Overview)
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -602,47 +512,39 @@
   
 
 
-  <h1>Audio Notes</h1>
-
-<h2 id="ai-powered-audio-note-taking-with-search">🎙️ AI-Powered Audio Note-Taking with Search</h2>
-<p>This is a Streamlit-based voice note-taking app that lets users record, transcribe, save, and search audio notes using OpenAI's Whisper and Embeddings API, with Qdrant vector database for smart semantic retrieval. It's designed to be lightweight, private (runs in memory), and interactive.</p>
-<h2 id="what-the-app-does">🚀 What the App Does</h2>
+<h1 id="image-finder">Image Finder</h1>
+<p>The app uses GPT-4o to generate detailed text descriptions of images, then converts those descriptions into high-dimensional vector embeddings. It stores those embeddings in a Qdrant vector database. Users can later search by typing a description, and the app finds the most semantically similar images using vector search.</p>
+<h1 id="key-features">💡 Key Features:</h1>
+<h2 id="multi-modal-ai">Multi-modal AI:</h2>
 <ul>
-<li>
-<p>Record &amp; Transcribe Notes<br>
-Users record voice notes directly in the browser. Notes are transcribed using OpenAI Whisper</p>
-</li>
-<li>
-<p>Save Notes to Vector Database<br>
-Transcriptions are converted to vector embeddings. Stored in an in-memory Qdrant vector database for retrieval</p>
-</li>
-<li>
-<p>Search Notes Semantically<br>
-Users can type a search query. The app finds related notes by meaning using vector similarity</p>
-</li>
+<li>Understands images and translates them to descriptive text using GPT-4o.</li>
 </ul>
-<h2 id="how-it-works-flow-overview">⚙️ How It Works (Flow Overview)</h2>
+<h2 id="semantic-search">Semantic Search:</h2>
+<ul>
+<li>Finds similar images based on meaning, not keywords.</li>
+</ul>
+<h2 id="embeddings">Embeddings:</h2>
+<ul>
+<li>Uses OpenAI’s text-embedding-3-large to convert text into searchable vectors.</li>
+</ul>
+<h2 id="vector-database">Vector Database:</h2>
+<ul>
+<li>Stores and retrieves embeddings efficiently using Qdrant.</li>
+</ul>
+<h2 id="interactive-ui">Interactive UI:</h2>
+<ul>
+<li>Streamlit app with image upload and search functionality.</li>
+</ul>
+<h2 id="ai-techniques-involved">🧠 AI Techniques Involved:</h2>
 <ul>
 <li>
-<p>🔐 API Setup<br>
-User supplies an OpenAI API key (via .env or manual input). Key is stored in st.session_state for secure use</p>
+<p>Multimodal AI (GPT-4o) – image → text.</p>
 </li>
 <li>
-<p>🎤 Audio Input<br>
-Audio is recorded via audiorecorder component and stored as .mp3 in memory</p>
+<p>Natural Language Processing (NLP) – for embedding and understanding descriptions.</p>
 </li>
 <li>
-<p>📝 Transcription<br>
-Audio bytes are sent to OpenAI Whisper (whisper-1).
-Returned text is shown and editable before saving</p>
-</li>
-<li>
-<p>💾 Note Storage<br>
-Each note is embedded into a 3072-dimensional vector using text-embedding-3-large. Stored in Qdrant using cosine similarity for fast semantic search</p>
-</li>
-<li>
-<p>🔍 Note Search
-Query is embedded, then matched against stored notes. Results are shown along with similarity scores (if searching)</p>
+<p>Vector Similarity Search – via cosine similarity in Qdrant.</p>
 </li>
 </ul>
 <p>Follow the link below, to see for yourself how the application works:
