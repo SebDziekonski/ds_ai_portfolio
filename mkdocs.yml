@@ -19,3 +19,4 @@ nav:
   - "Iris": iris/index.md
   - "My GPT" : my_GPT/index.md
   - "Audio Notes": audio_notes/index.md
+  - "Image Finder": image_search/index.md
