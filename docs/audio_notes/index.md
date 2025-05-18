@@ -28,5 +28,5 @@ Each note is embedded into a 3072-dimensional vector using text-embedding-3-larg
 - 🔍 Note Search
 Query is embedded, then matched against stored notes. Results are shown along with similarity scores (if searching)
 
-Follow the link below, to see for yourself how the application works:
+Follow the link below to view the source code and see how the application works — you can run it yourself: 
 <br><a href="https://github.com/SebDziekonski/ds_ai_portfolio.git" target="_blank">Open in new tab</a>

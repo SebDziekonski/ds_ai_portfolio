@@ -29,7 +29,7 @@ All conversations are stored securely in local JSON files for easy access and pe
 
 - dotenv – For secure API key management
 
-Follow the link below, to see for yourself how the application works:
+Follow the link below to view the source code and see how the application works — you can run it yourself:
 <br><a href="https://github.com/SebDziekonski/ds_ai_portfolio.git" target="_blank">Open in new tab</a>
 
 

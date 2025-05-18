@@ -61,5 +61,5 @@ Also when charge is estimated, application will give the user a hint on what he 
 
 - Natural Language Parsing: Planned to convert spoken text into form data using regex-based extraction.
 
-Follow the link below, to see for yourself how the application works:
+Follow the link below to view the source code and see how the application works — you can run it yourself: 
 <br><a href="https://github.com/SebDziekonski/ds_ai_portfolio.git" target="_blank">Open in new tab</a>

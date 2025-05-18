@@ -25,5 +25,5 @@ The app uses GPT-4o to generate detailed text descriptions of images, then conve
 
 - Vector Similarity Search – via cosine similarity in Qdrant.
 
-Follow the link below, to see for yourself how the application works:
+Follow the link below to view the source code and see how the application works — you can run it yourself: 
 <br><a href="https://github.com/SebDziekonski/ds_ai_portfolio.git" target="_blank">Open in new tab</a>
