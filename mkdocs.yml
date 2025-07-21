@@ -12,7 +12,7 @@ theme:
 nav:
 - Home Page: index.md
 - Current Project: 
-  - "Insurance Predictor": insurance_charge_predictor/index.md
+  - "Coloring Book Generator": coloring_book_generator/index.md
 
 - Previous Projects: 
   - "Titanic": titanic/index.md
@@ -20,3 +20,4 @@ nav:
   - "My GPT" : my_GPT/index.md
   - "Audio Notes": audio_notes/index.md
   - "Image Finder": image_search/index.md
+  - "Insurance Predictor": insurance_charge_predictor/index.md
