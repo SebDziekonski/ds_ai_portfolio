@@ -13,10 +13,6 @@
       
       
       
-        <link rel="prev" href="../my_GPT/">
-      
-      
-        <link rel="next" href="../image_search/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -24,7 +20,7 @@
     
     
       
-        <title>Audio Notes - My Projects</title>
+        <title>Index - My Projects</title>
       
     
     
@@ -65,11 +61,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#ai-powered-audio-note-taking-with-search" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -102,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Audio Notes
+              Index
             
           </span>
         </div>
@@ -309,20 +300,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -338,7 +327,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Previous Projects
@@ -418,30 +407,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Audio Notes
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../audio_notes/" class="md-nav__link">
         
   
   
@@ -452,51 +421,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ai-powered-audio-note-taking-with-search" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎙️ AI-Powered Audio Note-Taking with Search
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-the-app-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚀 What the App Does
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-it-works-flow-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ How It Works (Flow Overview)
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -550,41 +474,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ai-powered-audio-note-taking-with-search" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎙️ AI-Powered Audio Note-Taking with Search
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-the-app-does" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚀 What the App Does
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-it-works-flow-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ How It Works (Flow Overview)
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -602,51 +491,9 @@
   
 
 
-  <h1>Audio Notes</h1>
+  <h1>Index</h1>
 
-<h2 id="ai-powered-audio-note-taking-with-search">🎙️ AI-Powered Audio Note-Taking with Search</h2>
-<p>This is a Streamlit-based voice note-taking app that lets users record, transcribe, save, and search audio notes using OpenAI's Whisper and Embeddings API, with Qdrant vector database for smart semantic retrieval. It's designed to be lightweight, private (runs in memory), and interactive.</p>
-<h2 id="what-the-app-does">🚀 What the App Does</h2>
-<ul>
-<li>
-<p>Record &amp; Transcribe Notes<br>
-Users record voice notes directly in the browser. Notes are transcribed using OpenAI Whisper</p>
-</li>
-<li>
-<p>Save Notes to Vector Database<br>
-Transcriptions are converted to vector embeddings. Stored in an in-memory Qdrant vector database for retrieval</p>
-</li>
-<li>
-<p>Search Notes Semantically<br>
-Users can type a search query. The app finds related notes by meaning using vector similarity</p>
-</li>
-</ul>
-<h2 id="how-it-works-flow-overview">⚙️ How It Works (Flow Overview)</h2>
-<ul>
-<li>
-<p>🔐 API Setup<br>
-User supplies an OpenAI API key (via .env or manual input). Key is stored in st.session_state for secure use</p>
-</li>
-<li>
-<p>🎤 Audio Input<br>
-Audio is recorded via audiorecorder component and stored as .mp3 in memory</p>
-</li>
-<li>
-<p>📝 Transcription<br>
-Audio bytes are sent to OpenAI Whisper (whisper-1).
-Returned text is shown and editable before saving</p>
-</li>
-<li>
-<p>💾 Note Storage<br>
-Each note is embedded into a 3072-dimensional vector using text-embedding-3-large. Stored in Qdrant using cosine similarity for fast semantic search</p>
-</li>
-<li>
-<p>🔍 Note Search
-Query is embedded, then matched against stored notes. Results are shown along with similarity scores (if searching)</p>
-</li>
-</ul>
-<p>Follow the link below to view the source code and see how the application works — you can run it yourself: 
-<br><a href="https://github.com/SebDziekonski/ds_ai_portfolio.git" target="_blank">Open in new tab</a></p>
+
 
 
 
